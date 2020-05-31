@@ -9,6 +9,7 @@ header {
   .header-logo {
     width: 100px;
     margin-right: 250px;
+    margin-bottom: 40px;
     padding-bottom: 50px;
     padding-top: 34px;
   }
@@ -36,10 +37,12 @@ header {
     padding: 0 25px;
     color: black;
     color: #000000;
+    text-decoration: none;
 }
 
 .header-right a:hover {
     background-color:#ffffff;
+    text-decoration: none;
   }
 
 .btn{
@@ -50,19 +53,20 @@ header {
 }
 
 .button{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color:black;
   background-color:white;
   border-color: #F7941E;
-  padding:5px 5px 5px;
   width: 105px;
+  padding:5px 5px 5px;
+  border-radius: 3px;
 }
 
 /* styles for section1*/
 .invitation{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   justify-content: center;
  }
 
@@ -72,19 +76,20 @@ header {
  }
 
  .invitation .left{
-  padding:30px 30px 30px;
- background-color: #F1F1F2; 
+  padding:30px 50px 30px;
+ background-color: #F1F1F2;
+ width: 400px; 
  }
 
  .invitation .left h3{ 
  font-weight: 600;
- font-size: 40px;
+ font-size: 35px;
  width: 400px;
  }
 
  .left p{
   font-family: Gilroy;
-  font-size: 20px;
+  font-size: 17px;
   width: 340px;
  }
 
@@ -92,7 +97,10 @@ header {
    background-color:#F7941E;
    color: white;
    border-color: #F7941E;
-   padding:5px 5px 5px;
+   padding:10px 10px 10px;
+   border-radius: 3px;
+   border-style: none;
+   
  }
 
  .invitation .letter{
@@ -114,16 +122,19 @@ header {
  }
  .letter .right{
   /* margin:50px; */
-  padding:30px 30px 30px;
-  font-size: 15px;
+  padding:30px 50px 30px;
+  font-size: 17px;
   background-color: #F1F1F2;
+  width: 400px;
 
  }
  .letter .clear{
   background-color:rgb(218, 213, 213) ;
   color: #F7941E;
   border-color: #F7941E;
-  padding:5px 5px 5px;
+  padding:10px 10px 10px;
+  border-radius: 3px;
+   border-style: none;
  }
 
 
@@ -134,76 +145,102 @@ header {
  }
  .items{
    text-align: center;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
+   padding-top: 10px;
  }
  .items h3{
   font-family: Gilroy;
    font-size: 20px;
-   padding-bottom: 5px;
+   padding-bottom: 10px;
 
  }
  .items p{
   font-family: Gilroy;
-   font-size: 13px;
+   font-size: 14px;
  }
  .options{
    /* display: flex; */
-  width: 25%;
+  width: 20.3%;
   float: left;
-  padding-bottom: 30px;
-  padding-right: 0px ;
-  
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+  box-shadow:0px 4px  4px rgb(230, 228, 228);
+  background-color: rgb(250, 249, 249);
  }
- .options p{
+ .options img{
+   margin:0px;
+ }
+ .options .grey{
+  padding-left: 30px;
+ }
+ #one{
+   background-color: white;
+ }
+ 
+ .options h4{
    font-weight:  Roboto;
   margin-top: 15px;
   font-size: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
  }
  .options a{
    color: black;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-decoration: none;
+ }
+ .yellowbox{
+   margin-top: 600px;
  }
  .yellow{
   display: flex;
   background-color:#F7941E;
- width: 100%;
- padding: 10px 20px;
- justify-content: center;
+  width: 100%;
+  /* padding: 10px 20px; */
+  justify-content: center;
+  margin-top: 80px;
+
  }
  .yellow .start{
    margin-right: 40px;
    font-weight: normal;
    color: black;
  }
-.yellow .button3{
-margin-block-end: auto;
-padding-left: 150px;
-padding-top: 30px;
-}
-.yellow .black{
+ .yellow .button3{
+  margin-block-end: auto;
+  padding-left: 150px;
+  padding-top: 30px;
+ }
+ .yellow .black{
   background-color: black;
   color:white;
   border-color:black ;
-}
-.yellow .gold{
+  border-radius: 3px;
+  border-style: none;
+  padding:10px 10px 10px;
+ }
+ .yellow .gold{
   color:black ;
   background-color:#F7941E;
-  border-color: black;
-}
+  border-color: 0.5px solid black;
+  border-radius: 3px;
+  padding:10px 10px 10px;
+ }
  .sec3 .box{
   padding: 40px;
-}
-.top{
+ }
+ .top{
   text-align: center;
   width: 400;
-}
-.mid{
+ }
+ .mid{
   float: left;
   background-color:#231F20;
   width: 90%;
   display: flex;
   margin: 70px;
-}
+ }
 
  .white{
   margin:50px;
@@ -212,32 +249,39 @@ padding-top: 30px;
 
  .white p{
   font-family: Gilroy;
-  width: 350px;
-  font-size: 35px;
+  width: 400px;
+  font-size: 43px;
  }
  .mid .img{
   width: 450px;
  }
  .white a{
    color: white;
+   text-decoration: none;
  }
 
  .twin{
    display: flex;
    padding: 30px;
   justify-content: center;
+  margin-bottom: 50px;
+ }
+ .twin a{
+   color: black;
+   text-decoration: none;
  }
  .sec4 .twin1{
  float: left;
  width: 500px;
  text-align: left;
  padding: 30px;
- box-shadow:0px 0px  5px rgb(192, 190, 190);
+ box-shadow: 2px  3px rgb(192, 190, 190);
  }
 
  .twin1 p{
- font-size: 20px;
+ font-size: 18px;
  width: 400px;
+ padding-bottom: 40px;
  }
  .twin1 h3{
    font-size: 20px;
@@ -251,7 +295,8 @@ padding-top: 30px;
  }
  .twin2 p{
   font-family: Gilroy;
-  font-size: 20px;
+  font-size: 18px;
+  padding-bottom: 40px;
    }
    .twin2 h3{
     font-family: Gilroy;
@@ -259,7 +304,10 @@ padding-top: 30px;
      width: 400px;
    }
    footer{
+     padding-top: 50px;
+     padding-bottom: 20px;
      text-align: center;
+     background-color: rgb(247, 247, 247);
    }
    .levelup{
      text-align: center;
@@ -267,15 +315,15 @@ padding-top: 30px;
      margin-bottom: 40px;
    }
    .levelup a{
-     padding-bottom: 30px;
-     margin: 30px;
+     padding-bottom: 60px;
+     margin: 35px;
      color: black;
-     border-style: none;
+     text-decoration: none;
    }
    #pan{
    margin-left:30px;
    margin-right: 60px;
-  
+   background-color: rgb(247, 247, 247);
    }
    .leveldown{
     text-align: center;
@@ -354,8 +402,12 @@ padding-top: 30px;
     border-color: black;
   }
   .bottom{
-    color: rgb(153, 153, 153);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     padding: 20px 0px;
     text-align: center;
+  }
+  .bottom a{
+    color: black;
+    text-decoration: none;
   }
