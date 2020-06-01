@@ -1,6 +1,6 @@
 /* styles for header */
 body * {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto', sans-serif ;
 }
 header {
     height: 65px;
@@ -8,7 +8,15 @@ header {
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(216, 211, 211);
   }
+  /* .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
     
+   display:none;
+  }
+     */
   .header-logo {
     width: 100px;
     margin-right: 250px;
@@ -32,7 +40,7 @@ header {
   }
 
  .header-right a{
-    font-family: Gilroy;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 22px;
     align-items: center;
@@ -41,6 +49,7 @@ header {
     color: black;
     color: #000000;
     text-decoration: none;
+    display: block;
 }
 
 .header-right a:hover {
@@ -56,7 +65,7 @@ header {
 }
 
 .button{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color:black;
   background-color:white;
   border-color: #F7941E;
@@ -70,6 +79,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+  margin: auto;
   justify-content: center;
  }
 
@@ -91,7 +101,7 @@ header {
  }
 
  .left p{
-  font-family: Gilroy;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
   width: 340px;
  }
@@ -120,7 +130,7 @@ header {
  }
  .letter p{
   width: 400px;
-  font-family: Gilroy;
+  font-family: 'Roboto', sans-serif;
   line-height: 140.62%
  }
  .letter .right{
@@ -143,7 +153,7 @@ header {
 
  .container{
    width: 100%;
-   margin:40px
+   margin:auto;
 
  }
  .items{
@@ -152,26 +162,30 @@ header {
    padding-top: 10px;
  }
  .items h3{
-  font-family: Gilroy;
+  font-family: 'Roboto', sans-serif;
    font-size: 20px;
    padding-bottom: 10px;
 
  }
  .items p{
-  font-family: Gilroy;
+  font-family: 'Roboto', sans-serif;
    font-size: 14px;
  }
  .options{
    /* display: flex; */
+   max-width:100%;
   width: 20.3%;
   float: left;
   padding-bottom: 40px;
   margin-bottom: 50px;
   margin-right: 40px;
+  margin-left: 20px;
   box-shadow:0px 4px  4px rgb(230, 228, 228);
   background-color: rgb(250, 249, 249);
  }
  .options img{
+  max-width:100%;
+  height:auto;
    margin:0px;
  }
  .options .grey{
@@ -182,7 +196,7 @@ header {
  }
  
  .options h4{
-   font-weight:  Roboto;
+   font-weight: 'Roboto', sans-serif;
   margin-top: 15px;
   font-size: 15px;
   padding-bottom: 50px;
@@ -194,13 +208,16 @@ header {
    text-decoration: none;
  }
  .yellowbox{
+  max-width:100%;
    margin-top: 600px;
  }
  .yellow{
   display: flex;
   background-color:#F7941E;
-  width: 98.6%;
+  width: 100%;
   /* padding: 10px 20px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: center;
   margin-top: 80px;
 
@@ -231,18 +248,20 @@ header {
   padding:10px 10px 10px;
  }
  .sec3 .box{
-  padding: 40px;
+  /* padding: 20px; */
  }
  .top{
   text-align: center;
-  width: 400;
+  width: 300;
+  margin-top: 50px;
  }
  .mid{
+  max-width: 100%;
   float: left;
   background-color:#231F20;
   width: 90%;
   display: flex;
-  margin: 70px;
+  margin: 60px;
  }
 
  .white{
@@ -251,7 +270,7 @@ header {
  }
 
  .white p{
-  font-family: Gilroy;
+  font-family: 'Roboto', sans-serif;
   width: 400px;
   font-size: 43px;
  }
@@ -264,6 +283,7 @@ header {
  }
 
  .twin{
+  max-width: 100%;
    display: flex;
    padding: 30px;
   justify-content: center;
@@ -274,6 +294,7 @@ header {
    text-decoration: none;
  }
  .sec4 .twin1{
+  
  float: left;
  width: 500px;
  text-align: left;
@@ -282,6 +303,7 @@ header {
  }
 
  .twin1 p{
+  font-family: 'Roboto', sans-serif;
  font-size: 18px;
  width: 400px;
  padding-bottom: 40px;
@@ -291,18 +313,19 @@ header {
    width: 300px;
  }
  .twin2{
+  max-width:100%;
   float: right;
   width: 400px;
   padding: 30px;
   text-align: left;
  }
  .twin2 p{
-  font-family: Gilroy;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   padding-bottom: 40px;
    }
    .twin2 h3{
-    font-family: Gilroy;
+    font-family: 'Roboto', sans-serif;
      font-size: 20px;
      width: 400px;
    }
